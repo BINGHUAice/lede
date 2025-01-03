@@ -1929,7 +1929,7 @@ TARGET_DEVICES += xzwifi_creativebox-v1
 
 define Device/youhua_wr1200js
   $(Device/dsa-migration)
-  IMAGE_SIZE := 16064k
+  IMAGE_SIZE := 32448k
   DEVICE_VENDOR := YouHua
   DEVICE_MODEL := WR1200JS
   DEVICE_PACKAGES := kmod-mt7603 kmod-mt76x2 kmod-usb3 \
